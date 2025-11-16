@@ -54,44 +54,13 @@ In a Gunn Oscillator, the Gunn diode is placed in a resonant cavity. In this cas
 
 *Note: After tuning the Gunn source, the procedure for VSWR & Impedance measurement depthof PIN modulator.*
 
-**B.Observation:**
-
-| S. N. | Gunn Bias Voltage (V) | Gunn Diode Current (mA) | Observation        |
-| :---: | :-------------------: | :---------------------: | :----------------- |
-|   1   |          0.0          |           0.5           |                    |
-|   2   |          1.0          |           5.2           |                    |
-|   3   |          2.0          |           18.6          |                    |
-|   4   |          3.0          |           28.0          | **Peak Current**   |
-|   5   |          4.0          |           22.4          |                    |
-|   6   |          5.0          |           17.0          |                    |
-|   7   |          6.0          |           14.2          |                    |
-|   8   |          7.0          |           12.0          | **Valley Current** |
-|   9   |          8.0          |           13.5          |                    |
-|   10  |          9.0          |           17.8          |                    |
-|   11  |          10.0         |           23.0          |                    |
-|   12  |          11.0         |           30.2          |                    |
-
-Depth of modulation of PIN diode (sample readings & calc.)
-
-Gunn bias used for modulation: 8 V (steady carrier).
-
-Micrometer / attenuator position (carrier at reference level):
-
-Top of square wave: micrometer = 4.5 mm → VSWR meter = -24 dB
-
-Bottom of square wave: micrometer = 7.0 mm → VSWR meter = -30 dB
-
-Difference ΔdB = 6 dB.
-
-Convert ΔdB to amplitude ratio:
-
-<img width="813" height="188" alt="image" src="https://github.com/user-attachments/assets/94971996-d12b-457d-bbb3-b38feabb4f9a" />
-
-Depth of modulation ≈ 50%
-
-
+**B.Observation**
+<img width="1156" height="867" alt="image" src="https://github.com/user-attachments/assets/437ee194-9bb8-45ce-82f4-9c76a3a82551" />
 
 **C.Analysis of Results:**
+<img width="1037" height="1280" alt="image" src="https://github.com/user-attachments/assets/1d6b466c-dc9e-4708-8f88-c0026589216c" />
+
+
 1.The I–V curve shows a rise in current up to a peak (~3 V, 28 mA), then a fall to a valley (~7 V, 12 mA) and a subsequent rise — this is the classic negative differential resistance (NDR) region of a Gunn diode.
 2.The device should be biased in the mid-NDR region (between peak and valley) for stable microwave oscillation.
 3.From PIN modulator measurements, a Δ of 6 dB between high/low detector readings gives an amplitude ratio ≈ 2, corresponding to ~50% modulation depth, indicating effective amplit
